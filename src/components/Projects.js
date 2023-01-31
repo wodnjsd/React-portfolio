@@ -47,9 +47,9 @@ const Projects = () => {
 
         <div className="lg:flex flex-row-reverse p-10">
           <div>
-            <img src={img3} alt="toothirty homepage" className="py-5 h-full w-full object-cover object-center" />
+            <img src={img3} alt="toothirty homepage" className="h-full w-full object-cover object-center" />
           </div>
-          <div className="flex flex-col justify-center lg:gap-8 pt-5 text-left pr-5">
+        <div className="flex flex-col justify-center lg:gap-8 lg:pr-5 pt-5 text-left">
             <h1 className="text-3xl lg:text-5xl font-zodiak text-gray-600 ">
               Toothirty
             </h1>

@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <>
       <Sidebar sidebar={sidebar} toggle={toggle} />
-      <Navbar toggleMail={toggleMail} toggle={toggle} />
+      <Navbar  sidebar={sidebar} toggle={toggle} />
       {/* <Email toggleMail={toggleMail} /> */}
       <About
         id="about" />

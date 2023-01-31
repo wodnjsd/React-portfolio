@@ -5,7 +5,7 @@ import { SiJavascript, SiPostgresql, SiMongodb, SiGithub, SiHeroku, SiJirasoftwa
 const Skills = () => {
   return (
     <>
-      <div class="bg-white h-screen py-20 px-10 lg:pt-40" id="skills">
+      <div class="bg-white h-full py-20 px-10 lg:pt-40" id="skills">
         <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 md:text-center sm:text-4xl pb-10">Skills</p>
 
         <div class=" mx-auto max-w-2xl sm:mt-15 lg:mt-10 lg:max-w-4xl">

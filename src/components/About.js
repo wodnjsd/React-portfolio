@@ -4,7 +4,7 @@ const About = () => {
 
   return (
     <>
-    <div className="bg-orange-100 h-screen" id="about">
+    <div className="bg-orange-100 h-full" id="about">
 
     <div className= 'pl-8 mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 '>
       <h1 className= "font-stardom text-6xl text-gray-900 md:text-7xl">Jaewon Han</h1>

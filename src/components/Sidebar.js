@@ -9,8 +9,8 @@ const links = {
   spy: true,
   smooth: true,
   duration: 500,
-  offset:-40,
-  className: "font-zodiak text-gray-500 hover:text-gray-900 cursor-pointer",
+  offset: -40,
+  className: "font-zodiak text-gray-500 hover:text-gray-900 cursor-pointe row-span-1",
 
 }
 
@@ -25,36 +25,39 @@ const Sidebar = ({ sidebar, toggle }) => {
         leaveFrom="translate-y-0"
         leaveTo="-translate-y-full">
         <div className="grid align-middle fixed w-full h-full bg-orange-200 z-999">
+        {/* <button>
+              <AiOutlineClose onClick={toggle} className="text-lg text-gray-600 cursor-pointer" />
+            </button> */}
+
+
+          <div className="mt-20 pt-20 grid grid-cols-1 grid-rows-4 text-center text-3xl ">
           
-        
-            <div className=" grid grid-cols-1 grid-rows-5 text-center text-3xl ">
-              <button>
-              <AiOutlineClose onClick={toggle} className="text-gray-600 cursor-pointer mt-10" />
-                </button>
-           
-              <Link
-                {...links}
-                to='about'
-                onClick={toggle}
-              >About</Link>
 
-              <Link
-                {...links}
-                to='skills'
-                onClick={toggle}
+            <Link
+      
+              {...links}
+              to='about'
+              onClick={toggle}
+              
+            >About</Link>
 
-              >Skills</Link>
+            <Link
+              {...links}
+              to='skills'
+              onClick={toggle}
 
-              <Link
-                {...links}
-                to='projects'
-                onClick={toggle}
-              >Projects</Link>
+            >Skills</Link>
 
-            </div>
+            <Link
+              {...links}
+              to='projects'
+              onClick={toggle}
+            >Projects</Link>
 
           </div>
-        
+
+        </div>
+
 
       </Transition>
 
