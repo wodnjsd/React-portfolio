@@ -5,11 +5,11 @@ import { SiJavascript, SiPostgresql, SiMongodb, SiGithub, SiHeroku, SiJirasoftwa
 const Skills = () => {
   return (
     <>
-      <div class="bg-white h-full py-20 px-10 lg:pt-40" id="skills">
-        <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 md:text-center sm:text-4xl pb-10">Skills</p>
+      <div class="bg-white h-screen py-24 px-10 lg:pt-40" id="skills">
+        <p class="my-8-2 text-3xl font-bold  text-gray-900 md:text-center sm:text-4xl pb-10">Skills</p>
 
-        <div class=" mx-auto max-w-2xl sm:mt-15 lg:mt-10 lg:max-w-4xl">
-          <dl class="grid max-w-xl grid-cols-2 gap-y-10 lg:max-w-none lg:grid-cols-5 lg:gap-y-16">    
+        <div class="mx-auto max-w-2xl lg:my-8 lg:max-w-4xl">
+          <dl class="grid max-w-xl grid-cols-2 md:grid-cols-3 gap-y-10 md:max-w-none lg:grid-cols-5 lg:gap-y-16">    
               <dt class="flex align-middle text-base font-semibold leading-7 text-gray-900">
                 <div class="mr-4 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-200 text-2xl text-gray-700">
                   <SiHtml5 />

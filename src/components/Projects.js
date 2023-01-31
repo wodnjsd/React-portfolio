@@ -5,44 +5,13 @@ import img3 from '../images/toothirty-home.png'
 import { BsArrowRight } from 'react-icons/bs'
 
 
-const projects = [
-  {
-    id: 1,
-    name: 'Toothirty',
-    href: '#',
-    imageSrc: 'src/images/toothirty-home.png',
-    imageAlt: 'Toothirty homepage',
-  },
-  {
-    id: 2,
-    name: 'I Beg Your Garden?',
-    href: '#',
-    imageSrc: "src/images/ibyg-home.png",
-    imageAlt: 'I beg your garden homepage',
-  },
-  {
-    id: 3,
-    name: 'Cocktail Party',
-    href: '#',
-    imageSrc: 'src/images/cocktail-home.png',
-    imageAlt: 'Cocktail party homepage',
-  },
-  {
-    id: 4,
-    name: 'Space Invaders',
-    href: '#',
-    imageSrc: 'src/images/cocktail-home.png',
-    imageAlt: 'Space invaders',
-  },
-
-]
 const Projects = () => {
   return (
     <>
       <div className="bg-orange-100 h-full px-10 sm:py-20" id="projects">
 
         <div className="mx-auto max-w-3xl lg:text-center py-8">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Projects</p>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 md:text-center sm:text-4xl">Projects</p>
         </div>
 
         <div className="lg:flex flex-row-reverse p-10">
@@ -92,6 +61,9 @@ const Projects = () => {
           </div>
      
         </div>
+        <div className="py-10 font-zodiak md:text-lg text-sm text-gray-600 text-right">
+          ...More to come soon
+          </div>
 
 
       </div>

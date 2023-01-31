@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-scroll'
-import { AiOutlineClose } from 'react-icons/ai'
 import { Transition } from '@headlessui/react'
 
 
@@ -10,7 +9,7 @@ const links = {
   smooth: true,
   duration: 500,
   offset: -40,
-  className: "font-zodiak text-gray-500 hover:text-gray-900 cursor-pointe row-span-1",
+  className: "font-zodiak text-gray-500 hover:text-gray-900 cursor-pointer row-span-1",
 
 }
 

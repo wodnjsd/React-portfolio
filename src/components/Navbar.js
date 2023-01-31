@@ -44,6 +44,8 @@ const Navbar = ({ toggle, sidebar }) => {
               <Link
                 {...links}
                 to='skills'
+                offset={-60}
+       
               >Skills</Link>
               <Link
                 {...links}
@@ -56,10 +58,10 @@ const Navbar = ({ toggle, sidebar }) => {
 
         </div>
         <div className="absolute inset space-x-4 right-0 flex items-center pr-2 text-lg lg:text-2xl text-gray-500 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <a href="https://github.com/wodnjsd" target="blank"><SiGithub /></a>
-          <a href="https://www.linkedin.com/in/jaewon-han-4900521a5/" target="blank"><BsLinkedin /></a>
+          <a href="https://github.com/wodnjsd" target="blank" className=" hover:text-gray-700"><SiGithub /></a>
+          <a href="https://www.linkedin.com/in/jaewon-han-4900521a5/" target="blank" className=" hover:text-gray-700"><BsLinkedin /></a>
           <Popover>
-              <Popover.Button className="flex"><HiOutlineMail /></Popover.Button>
+              <Popover.Button className="flex hover:text-gray-700"><HiOutlineMail /></Popover.Button>
               <Popover.Panel className="absolute right-2 z-10 mt-3 w-100 max-w-md  transform px-4 sm:px-0 lg:max-w-3xl">
               <div className="bg-orange-200 overflow-hidden p-2 rounded-lg shadow-lg ring-1 ring-black ring-opacity-5">
 
