@@ -28,12 +28,10 @@ const Sidebar = ({ sidebar, toggle }) => {
               <AiOutlineClose onClick={toggle} className="text-lg text-gray-600 cursor-pointer" />
             </button> */}
 
-
           <div className="mt-20 pt-20 grid grid-cols-1 grid-rows-4 text-center text-3xl ">
           
-
             <Link
-      
+    
               {...links}
               to='about'
               onClick={toggle}

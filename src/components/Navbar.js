@@ -29,7 +29,7 @@ const Navbar = ({ toggle, sidebar }) => {
 
       <div className="bg-orange-100 flex w-full fixed h-20 px-2 sm:px-6 lg:px-8 z-10 items-center justify-between">
 
-        <div class="sm:items-stretch sm:justify-start">
+        <div className="sm:items-stretch sm:justify-start">
           <button type="button" onClick={toggle} className="sm:hidden cursor-pointer rounded-md p-2 text-gray-500 hover:text-gray-900 hover:shadow-lg" aria-controls="mobile-menu" aria-expanded="false">
             {!sidebar? <FaBars /> : <IoClose /> }
 

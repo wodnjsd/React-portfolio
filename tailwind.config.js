@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         'zodiak': ['Zodiak', 'serif'],
         'stardom': ['Stardom', 'sans-serif'],
-        'bespoke': ['Bespoke Serif', 'serif']
+        'bespoke': ['Bespoke Serif', 'serif'],
+        'gambarino': ['Gambarino', 'serif']
       }
     },
   },

@@ -4,17 +4,15 @@ import Sidebar from './Sidebar'
 import About from './About'
 import Projects from './Projects'
 import Skills from './Skills'
+import Footer from './Footer'
 
 const Home = () => {
 
-
   const [sidebar, setSidebar] = useState(false)
-
 
   const toggle = () => {
     setSidebar(!sidebar)
   }
-
 
   return (
     <>
@@ -26,8 +24,7 @@ const Home = () => {
         id="skills" />
       <Projects
         id="projects" />
-      {/* <Contact
-        id="contact" /> */}
+      <Footer />
     </>
   )
 
