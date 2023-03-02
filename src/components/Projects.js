@@ -3,6 +3,7 @@ import img1 from "../images/cocktail-home.png";
 import img2 from "../images/ibyg-home.png";
 import img3 from "../images/toothirty-home.png";
 import img4 from "../images/fitness.png";
+import img5 from "../images/bookmarks.png"
 import { BsArrowRight } from "react-icons/bs";
 
 const Projects = () => {
@@ -12,6 +13,32 @@ const Projects = () => {
         <p className="my-2 text-3xl px-10 font-bold  text-gray-900 md:text-center sm:text-4xl pb-10">
           Projects
         </p>
+
+        <div className="lg:flex flex-row-reverse p-10">
+          <div>
+            <img
+              src={img5}
+              alt="toothirty homepage"
+              className="h-full w-full object-cover object-center"
+            />
+          </div>
+          <div className="flex flex-col justify-center lg:gap-8 pt-5 text-left pr-5">
+            <h1 className="text-3xl lg:text-5xl font-zodiak text-gray-600 ">
+              Bookmarks
+            </h1>
+            <p className="text-sm py-2 lg:text-lg text-gray-600">
+              Solo frontend project
+              <br />
+              Built with React and Typescript
+            </p>
+            <div className="pr-2 text-xl lg:text-3xl text-gray-500">
+              <a href="https://jwbookmark.netlify.app/" target="blank">
+                <BsArrowRight />
+              </a>    
+            </div>
+          </div>
+        </div>
+
         <div className="lg:flex p-10">
           <div>
             <img
@@ -19,7 +46,7 @@ const Projects = () => {
               alt="garden homepage"
               className="h-full w-full object-cover object-center"
             />
-          </div>
+          </div>         
           <div className="flex flex-col justify-center lg:gap-8 lg:pl-5 pt-5 text-left">
             <h1 className="text-3xl lg:text-5xl font-zodiak text-gray-600 ">
               JW Fitness
@@ -36,6 +63,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
         <div className="lg:flex flex-row-reverse p-10">
           <div>
             <img
