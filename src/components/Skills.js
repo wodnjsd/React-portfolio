@@ -74,19 +74,19 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <div className="bg-white h-full min-h-screen py-24 px-5 sm:px-20 lg:pt-40" id="skills">
-        <p className="my-2 text-3xl font-bold  text-gray-900 md:text-center sm:text-4xl pb-10">
+      <div className="bg-white h-full min-h-screen py-12 px-5 sm:px-20 flex flex-col items-center" id="skills">
+        <h2 className="py-20 text-3xl font-bold  text-gray-900 sm:text-4xl">
           Skills
-        </p>
+        </h2>
 
-        <div className="mx-auto max-w-2xl lg:my-8 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-2 md:grid-cols-3 gap-y-10 md:max-w-none lg:grid-cols-5 lg:gap-y-16">
+        <div className="max-w-2xl lg:my-8 lg:max-w-4xl">
+          <dl className="grid grid-cols-2 md:grid-cols-3 gap-y-10 lg:grid-cols-5 lg:gap-y-16 gap-x-1 sm:gap-x-10">
             {skills.map((skill) => (
               <dt
                 key={skill.name}
                 className="flex align-middle font-semibold leading-7"
               >
-                <div class="mr-3  flex h-10 w-10 items-center justify-center rounded-lg bg-orange-200 text-2xl text-gray-700">
+                <div class="mr-2 flex h-10 w-10 items-center justify-center rounded-lg bg-orange-200 text-2xl text-gray-700">
                   {skill.icon}
                 </div>
                 <div className="flex items-center text-gray-900 text-xs sm:text-sm">

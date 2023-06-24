@@ -6,8 +6,7 @@ import { HiOutlineMail } from 'react-icons/hi'
 import { IoClose } from 'react-icons/io5'
 import { Popover } from '@headlessui/react'
 import { Link } from 'react-scroll'
-// import Email from './Email'
-// import Sidebar from './Sidebar'
+
 
 const links = {
   activeClass: 'active',
