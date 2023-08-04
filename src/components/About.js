@@ -12,8 +12,7 @@ const About = () => {
             Dentist and developer based in London
           </p>
           <p className="text-sm pt-5 max-w-lg leading-5 text-gray-600">
-            Been working as a dentist for 3.5 years, looking for new
-            opportunities as full-stack/ front-end developer!
+         Full-stack/ front-end developer looking for new opportunities!
           </p>
         </div>
       </div>

@@ -25,19 +25,14 @@ const Sidebar = ({ sidebar, toggle }) => {
         leaveFrom="translate-y-0"
         leaveTo="-translate-y-full"
       >
-        <div className="grid align-middle fixed w-full h-full bg-orange-200 z-999">
-          {/* <button>
-              <AiOutlineClose onClick={toggle} className="text-lg text-gray-600 cursor-pointer" />
-            </button> */}
-          <div className="mt-20 pt-20 grid grid-cols-1 grid-rows-4 text-center text-3xl ">
+        <div className="grid align-middle fixed w-full h-full bg-gradient-to-b from-orange-100 to-orange-200 z-999">
+          <div className="flex flex-col justify-center gap-24 text-center text-3xl ">
             <Link {...links} to="about" onClick={toggle}>
               About
             </Link>
-
             <Link {...links} to="skills" onClick={toggle}>
               Skills
             </Link>
-
             <Link {...links} to="projects" onClick={toggle}>
               Projects
             </Link>
