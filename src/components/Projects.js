@@ -30,7 +30,7 @@ const Projects = () => {
         </div>
 
         <div className="py-10 font-zodiak md:text-lg text-sm text-gray-600">
-          ...More to come soon
+          ...More to come soon...
         </div>
       </div>
     </>
