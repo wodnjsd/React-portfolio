@@ -4,7 +4,8 @@ import img1 from "../images/cocktail-home.png";
 import img2 from "../images/ibyg-home.png";
 import img3 from "../images/toothirty-home.png";
 import img4 from "../images/kimdental.png";
-import img5 from "../images/bookmarks.png";
+// import img5 from "../images/bookmarks.png";
+import img6 from '../images/todo.png'
 
 export default [
   {
@@ -17,13 +18,14 @@ export default [
     url: "https://mk-porfolio.vercel.app/",
   },
   {
-    id: 5,
-    title: "Bookmarks",
-    image: img5,
-    description: `Save your favourite URLs in one place
-  Built with React and Typescript`,
-    url: "https://jwbookmark.netlify.app/",
+    id: 6,
+    title: "Todo",
+    image: img6,
+    description: `Todo app
+Built with Vite, React, Typescript`,
+    url: "https://jwtodoapp.netlify.app/",
   },
+
   {
     id: 1,
     title: "Toothirty",
@@ -33,13 +35,6 @@ export default [
     url: "https://toothirty.netlify.app/",
   },
   {
-    id: 2,
-    title: "Cocktail Party",
-    image: img1,
-    description: "Group React Project",
-    url: "https://main--ephemeral-salmiakki-7db874.netlify.app/",
-  },
-  {
     id: 4,
     title: "I Beg Your Garden?",
     image: img2,
@@ -47,4 +42,19 @@ export default [
   MERN stack`,
     url: "https://isnt-wodnjsd-awesome.netlify.app/",
   },
+  {
+    id: 2,
+    title: "Cocktail Party",
+    image: img1,
+    description: "Group React Project",
+    url: "https://main--ephemeral-salmiakki-7db874.netlify.app/",
+  },
+  // {
+  //   id: 5,
+  //   title: "Bookmarks",
+  //   image: img5,
+  //   description: `Save your favourite URLs in one place
+  // Built with React and Typescript`,
+  //   url: "https://jwbookmark.netlify.app/",
+  // },
 ];
